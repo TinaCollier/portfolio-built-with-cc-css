@@ -40,3 +40,12 @@ nav {
 .nav-links li a.active {
 
 }
+
+.hero-tina {
+    background-color: black;
+}
+
+.hero-img {
+    filter: blur(px);
+    width: 100%;
+}
