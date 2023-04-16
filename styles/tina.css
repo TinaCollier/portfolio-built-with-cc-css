@@ -43,7 +43,7 @@ nav {
 
 .btn-tinaBlue {
     background-color: #647C90;
-    
+
 }
 
 .hero-tina {
@@ -53,4 +53,16 @@ nav {
 .hero-img {
     filter: blur(px);
     width: 100%;
+}
+
+.b2 {
+    text-align: center;
+}
+
+.footer-links ul {
+    list-style-type: none;
+}
+
+.icon-links li {
+    display: inline;
 }
