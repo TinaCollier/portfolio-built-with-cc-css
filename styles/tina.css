@@ -41,6 +41,14 @@ nav {
 
 }
 
+.mobile-nav ul {
+    list-style: none;
+}
+
+.mobile-nav li {
+    display: inline;
+}
+
 .btn-tinaBlue {
     background-color: #647C90;
 
