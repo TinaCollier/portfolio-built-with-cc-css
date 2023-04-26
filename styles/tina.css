@@ -80,3 +80,19 @@ hr {
     border-width:0;
     background-color:#2c2c2c;
 }
+
+.desktop {
+    width: auto;
+    height: 375px;
+    background-image: url("/images/desktop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.mobile {
+    width: auto;
+    height: 500px;
+    background-image: url("/images/mobile.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
