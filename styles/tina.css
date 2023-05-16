@@ -1,3 +1,5 @@
+
+
 body {
     background-color: #f2f2f2;
 }
@@ -59,8 +61,9 @@ nav {
 /* Bio */
 
 .hero-img {
-    filter: blur(px);
-    width: 100%;
+    display:table-cell; 
+    vertical-align: middle; 
+    text-align: center;
 }
 
 .b2 {
@@ -97,6 +100,11 @@ h3 a:hover {
     list-style-type: none
 }
 
+.project-img img{
+    max-width: 350px;
+    height: auto;
+}
+
 /* Footer */
 .footer-links ul {
     list-style-type: none;
@@ -105,3 +113,13 @@ h3 a:hover {
 .icon-links li {
     display: inline;
 }
+
+@media screen and (max-width: 27em) {
+    .project-img img{
+        max-width: 100%;
+        max-height: 100vh;
+        margin: auto;
+        padding: 10px;
+    }
+}
+
