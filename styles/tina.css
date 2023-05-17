@@ -44,6 +44,7 @@ nav {
 
 }
 
+
 .mobile-nav ul {
     list-style: none;
 }
@@ -94,6 +95,11 @@ h3 a:hover {
     color: #E2DED0;
 }
 
+.project {
+    width: 100%;
+    margin: 0 auto;
+}
+
 .project_title {
     font-size: 1.5em;
     text-decoration: none;
@@ -103,6 +109,10 @@ h3 a:hover {
 .project-img img{
     max-width: 350px;
     height: auto;
+}
+
+li a {
+    text-decoration: none;
 }
 
 /* Footer */
@@ -115,6 +125,7 @@ h3 a:hover {
 }
 
 @media screen and (max-width: 27em) {
+
     .project-img img{
         max-width: 100%;
         max-height: 100vh;

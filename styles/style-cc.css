@@ -253,6 +253,8 @@ FOOTER
     padding-right: 5em;
 }
 
+
+
 /*------------------------------------*\
             END $SPACING
         \*------------------------------------*/
@@ -366,6 +368,11 @@ FOOTER
         margin-right: auto;
         margin-left: auto;
     }
+
+    body {
+        min-width: 100% !important;
+        margin: 0 auto;
+    }
 }
 
 @media only screen and (max-width: 54em) {
@@ -407,6 +414,9 @@ FOOTER
 
     .m-width-200 {
         max-width: 200px;
+    }
+    .no-padding-right-on-mobile {
+        padding-right: 0px;
     }
 }
 

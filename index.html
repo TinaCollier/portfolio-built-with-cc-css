@@ -36,7 +36,7 @@
                 <div class="hero-img">
                     <img src="./images/hero-bio-pic.png" width="80%">
                 </div style="">
-                <nav class="hide-on-desktop">
+                <nav class="hide-on-desktop" style="display: flex; justify-content: space-around;">
                     <ul class="mobile-nav"> 
                         <li><a href="#about_me">About</a></li>             
                         <li><a href="#projects">Projects</a></li>
@@ -95,74 +95,94 @@
 
     <section class="bg-lightGray" id="projects">
         <div class="container-cc split py-3">
-            <div class="column basis100">            
+            <div class="column basis100 text-center">            
                 <h2 class="no-padding-right-on-mobile pr-4">Front End Projects</h2>
             </div>
 
             <!-- Research Intensive Site -->
-            <div class="column basis50">
-                <div class="project-img">
-                    <img src="./images/research_site_laptop.png" alt="Advancned Approaches to UX Research intensive website image">
+            <div class="project split py-3">
+                <div class="column basis50">
+                    <div class="project-img">
+                        <img src="./images/research_site_laptop.png" alt="Advancned Approaches to UX Research intensive website image">
+                    </div>
                 </div>
-            </div>
-            
-            <div class="column basis50">
-                <h3 class="project_title"><a href="https://research.centercentre.com/">Research.CenterCentre.com</a></h3>
-                <ul>
-                    <li><em>A Landing Page for the Center Centre - UIE Advanced Approaches to UX Research Intesive</em></li>
-                    <li>Built using HTML and CSS and the Center Centre CSS Framework, collaborated on this website with the design and web development team.</li>
-                    <li><a href="https://github.com/TinaCollier/research">Repo</a></li>
-                </ul>
-            </div>
+                
+                <div class="column basis50">
+                    <h3 class="project_title"><a href="https://research.centercentre.com/">Research.CenterCentre.com</a></h3>
 
-            <!-- Winstakeholders Site -->
-            <div class="column basis50">
-                <div class="project-img">
-                    <img src="./images/win_site_laptop.png" alt="How to Win Stakeholders & Influence Decisions website image">
+                    <p><em>A Landing Page for the Center Centre - UIE Advanced Approaches to UX Research Intesive</em></p>
+                    <br>
+                    <p>Built using HTML and CSS and the Center Centre CSS Framework, collaborated on this website with the design and web development team.</p>
+                    <br>
+                    <p>Built with HTML, CSS, and JavaScript</p>
+                    <br>
+                    <p><a href="https://github.com/TinaCollier/research">Repo</a></p>
                 </div>
+
             </div>
-            
-            <div class="column basis50">
-                <h3 class="project_title"><a href="https://winstakeholders.com/">WinStakeholders.com</a></h3>
-                <ul>
-                    <li><em>A Landing Page for the Center Centre - UIE's How to Win Stakeholders & Influence Decisions program</em></li>
-                    <li>Maintained and updated this landing page using the Center Centre GitHub repository. Made design changes as directed by the design team and prepared site for each upcoming cohort.</li>
-                    <li><a href="https://github.com/TinaCollier/win">Repo</a></li>
-                </ul>
+            <!-- Winstakeholders Site -->
+            <div class="project-cc split py-3">
+                <div class="column basis50">
+                    <div class="project-img">
+                        <img src="./images/win_site_laptop.png" alt="How to Win Stakeholders & Influence Decisions website image">
+                    </div>
+                </div>
+
+                <div class="column basis50">
+                    <h3 class="project_title"><a href="https://winstakeholders.com/">WinStakeholders.com</a></h3>
+
+                    <p><em>A Landing Page for the Center Centre - UIE's How to Win Stakeholders & Influence Decisions program</em></p>
+                    <br>
+                    <p>Maintained and updated this landing page using the Center Centre GitHub repository. Made design changes as directed by the design team and prepared site for each upcoming cohort.</p>
+                    <br>
+                    <p>Built with HTML, CSS, and JavaScript</p>
+                    <br>
+                    <p><a href="https://github.com/TinaCollier/win">Repo</a></p>
+
+                </div>
             </div>
 
             <!-- Tiered Bad Bank -->
-            <div class="column basis50">
-                <div class="project-img">
-                    <img src="./images/badbank_site_laptop.png" alt="Tina Collier's Tiered Bad Bank website image">
+            <div class="project-cc split py-3" >
+                <div class="column basis50">
+                    <div class="project-img">
+                        <img src="./images/badbank_site_laptop.png" alt="Tina Collier's Tiered Bad Bank website image">
+                    </div>
                 </div>
-            </div>
-            
-            <div class="column basis50">
-                <h3 class="project_title"><a href="http://tieredbadbankproject.herokuapp.com/">Tiered Bad Bank</a></h3>
-                <ul>
-                    <li><em>A MERN Stack Project</em></li>
-                    <li>A Full Stack Bad Bank React app that allows visitors to create an account, deposit and withdraw funds, keeps track of transactions, and documents users.</li>
-                    <li><a href="https://github.com/TinaCollier/TieredBadBankProject">Repo</a></li>
-                </ul>
+                
+                <div class="column basis50">
+                    <h3 class="project_title"><a href="http://tieredbadbankproject.herokuapp.com/">Tiered Bad Bank</a></h3>
+
+                    <p><em>A MERN Stack Project</em></p>
+                    <br>
+                    <p>A Full Stack Bad Bank React app that allows visitors to create an account, deposit and withdraw funds, keeps track of transactions, and documents users.</p>
+                    <br>
+                    <p>Front end built with HTML, CSS, Bootstrap and JavaScript using the React Framework, and back end built with NodeJS and Express JS. Incorporates the Bing News API to retrieve the latest financial news from the web.</p>
+                    <br>
+                    <p><a href="https://github.com/TinaCollier/TieredBadBankProject">Repo</a></p>
+
+                </div>
             </div>
 
             <!-- Center Centre CSS Framework -->
-            <div class="column basis50">
-                <div class="project-img">
-                    <img src="./images/design_site_desktop.png" alt="Center Centre - UIE's CSS Framework design page">
+            <div class="project-cc split py-3">
+                <div class="column basis50">
+                    <div class="project-img">
+                        <img src="./images/design_site_desktop.png" alt="Center Centre - UIE's CSS Framework design page">
+                    </div>
+                </div>
+                
+                <div class="column basis50">
+                    <h3 class="project_title"><a href="https://ui.centercentre.com/">Center Centre - UIE's CSS Framework</a></h3>
+
+                    <p><em>CSS Framework created and used by Center Centre - UIE</em></p>
+                    <br>
+                    <p>I used and contributed to this framework. Noteably, I created the testimonials callout.</p>
+                    <br>
+                    <p><a href="https://github.com/TinaCollier/css-cc">Repo</a></p>
+
                 </div>
             </div>
-            
-            <div class="column basis50">
-                <h3 class="project_title"><a href="https://ui.centercentre.com/">Center Centre - UIE's CSS Framework</a></h3>
-                <ul>
-                    <li><em>CSS Framework created and used by Center Centre - UIE</em></li>
-                    <li>I used and contributed to this framework. Noteably, I created the testimonials callout.</li>
-                    <li><a href="https://github.com/TinaCollier/css-cc">Repo</a></li>
-                </ul>
-            </div>
-        
         </div>
     </section>
 
@@ -177,41 +197,45 @@
     <!-- Back End -->
     <section class="bg-lightGray">
         <div class="container-cc split py-3">
-            <div class="column basis100">            
+            <div class="column basis100 text-center">            
                 <h2 class="no-padding-right-on-mobile pr-4">Back End Projects</h2>
             </div>
 
             <!-- Migrate UIE to CenterCentre -->
             <div class="column basis70">
-                <ul>
-                    <li class="project_title">Migrated UIE.com to CenterCentre.com
-                        <ul>
-                            <li><em>Migrated Center Centre - UIE's main WordPress site to another domain</em></li>
-                            <li>Using the command line and the company's asset servers, I secure copied uie.com's WordPress files and database, and manually migrated them into centercentre.com's file structure and database.</li>
-                            <li><a href="https://www.uie.com/">UIE.com</a></li>
-                            <li><a href="https://www.centercentre.com/">CenterCentre.com</a></li>
-                            <li>You can read more about this process on my <a href="https://tina.collier.blog/2023/04/28/migrating-a-wordpress-site-the-hard-way/">blog</a>.</li>
-                        </ul>
-                    </li>
-                    <hr>
+                <div>
+                    <h3 class="project_title">Migrated UIE.com to CenterCentre.com</h3>
+
+                    <p><em>Migrated Center Centre - UIE's main WordPress site to another domain</em></p>
+                    <br>
+                    <p>Using the command line and the company's asset servers, I secure copied uie.com's WordPress files and database, and manually migrated them into centercentre.com's file structure and database.</p>
+                    <br>
+                    <p><a href="https://www.uie.com/">UIE.com</a></p>
+                    <br>
+                    <p><a href="https://www.centercentre.com/">CenterCentre.com</a></p>
+                    <br>
+                    <p>You can read more about this process on my <a href="https://tina.collier.blog/2023/04/28/migrating-a-wordpress-site-the-hard-way/">blog</a>.</p>
+                </div>
+                <hr>
 
                     <!-- Clourflare -->
-                    <li class="project_title">Managed Center Centre - UIE's CloudFlare Account
-                        <ul>
-                            <li>Managed Center Centre - UIE's DNS settings and domains</li>
-                            <li>Set up continuous integration and continuous delivery/continuous deployment, or CI/CD, for <a href="https://uxdesignschool.centercentre.com/">UXDesignSchool.CenterCentre.com</a></li>
-                        </ul>
-                    </li>
-                    <hr>
+                <div>
+                    <h3 class="project_title">Managed Center Centre - UIE's CloudFlare Account</h3>
+
+                    <p>Managed Center Centre - UIE's DNS settings and domains</p>
+                    <br>
+                    <p>Set up continuous integration and continuous delivery/continuous deployment, or CI/CD, for <a href="https://uxdesignschool.centercentre.com/">UXDesignSchool.CenterCentre.com</a></p>
+                </div>
+                <hr>
 
                     <!-- Articles Backup -->
-                    <li class="project_title">Backed up <a href="https://articles.uie.com/">Articles.UIE.com</a> on DigitalOcean
-                        <ul>
-                            <li><em>Using the WordPress site files and MySQL database, I created a backup of the site on DigitalOcean through the Plesk Panel</em></li>
-                            <li>Backup: <a href="https://articlesdo.uie.com/">ArticlesDO.UIE.com</a></li>
-                        </ul>
-                    </li>
-                </ul>
+                <div>
+                    <h3 class="project_title">Backed up <a href="https://articles.uie.com/">Articles.UIE.com</a> on DigitalOcean</h3>
+
+                    <p><em>Using the WordPress site files and MySQL database, I created a backup of the site on DigitalOcean through the Plesk Panel</em></p>
+                    <br>
+                    <p>Backup: <a href="https://articlesdo.uie.com/">ArticlesDO.UIE.com</a></p>
+                </div>
             </div>
             <div class="column basis30">
                 <div class="sticky text-center">
@@ -234,55 +258,62 @@
     <!-- WordPress -->
     <section class="bg-lightGray" id="projects">
         <div class="container-cc split py-3">
-            <div class="column basis100">            
+            <div class="column basis100 text-center">            
                 <h2 class="no-padding-right-on-mobile pr-4">WordPress Projects</h2>
             </div>
 
             <!-- CenterCentre.com -->
-            <div class="column basis50">
-                <div class="project-img">
-                    <img src="./images/cc_site_laptop.png" alt="Center Centre main website image">
+            <div class="project split py-3">
+                <div class="column basis50">
+                    <div class="project-img">
+                        <img src="./images/cc_site_laptop.png" alt="Center Centre main website image">
+                    </div>
                 </div>
-            </div>
-            
-            <div class="column basis50">
-                <h3 class="project_title"><a href="https://www.centercentre.com/">CenterCentre.com</a></h3>
-                <ul>
-                    <li><em>Center Centre - UIE's main landing page.</em></li>
-                    <li>After migrating UIE.com to CenterCentre.com, I made all updates and changes requested by the design team. I maintained this WordPress website using both the WordPress site files and the wp-admin panel as needed.</li>
-                </ul>
+                
+                <div class="column basis50">
+                    <h3 class="project_title"><a href="https://www.centercentre.com/">CenterCentre.com</a></h3>
+
+                    <p><em>Center Centre - UIE's main landing page.</em></p>
+                    <br>
+                    <p>After migrating UIE.com to CenterCentre.com, I made all updates and changes requested by the design team. I maintained this WordPress website using both the WordPress site files and the wp-admin panel as needed.</p>
+                </div>
             </div>
 
             <!-- UX Design School Site -->
-            <div class="column basis50">
-                <div class="project-img">
-                    <img src="./images/uxdesignschool_site_laptop.png" alt="UX Design Schools website image">
+            <div class="project split py-3">
+                <div class="column basis50">
+                    <div class="project-img">
+                        <img src="./images/uxdesignschool_site_laptop.png" alt="UX Design Schools website image">
+                    </div>
+                </div>
+                
+                <div class="column basis50">
+                    <h3 class="project_title"><a href="https://uxdesignschool.centercentre.com/">UX Desing School Site</a></h3>
+
+                    <p><em>A Landing Page for the Center Centre - UIE's Design School</em></p>
+                    <br>
+                    <p>Migrated this WordPress site from Center Centre - UIE's web servers to DigitalOcean's cloud hosting. Updated the site using the site files to reflect current changes requested by the design team, such as replacing the banner, updating the footer, and replacing links as needed.</p>
                 </div>
             </div>
-            
-            <div class="column basis50">
-                <h3 class="project_title"><a href="https://uxdesignschool.centercentre.com/">UXDesignSchool.CenterCentre.com</a></h3>
-                <ul>
-                    <li><em>A Landing Page for the Center Centre - UIE's Design School</em></li>
-                    <li>Migrated this WordPress site from Center Centre - UIE's web servers to DigitalOcean's cloud hosting. Updated the site using the site files to reflect current changes requested by the design team, such as replacing the banner, updating the footer, and replacing links as needed.</li>
-                </ul>
-            </div>
+ 
+
 
             <!-- Blog -->
-            <div class="column basis50">
-                <div class="project-img">
-                    <img src="./images/blog_desktop.png" alt="Tina Collier Blog website image">
+            <div class="project split py-3">
+                <div class="column basis50">
+                    <div class="project-img">
+                        <img src="./images/blog_desktop.png" alt="Tina Collier Blog website image">
+                    </div>
+                </div>
+                
+                <div class="column basis50">
+                    <h3 class="project_title"><a href="https://tina.collier.blog/">Tina.Collier.Blog</a></h3>
+
+                    <p><em>My Personal WordPress Blog</em></p>
+                    <br>
+                    <p>This is my personal WordPress blog that I have maintained for 8 years. I have documented my web development journey and my fellowship at Center Centre - UIE in this blog.</p>
                 </div>
             </div>
-            
-            <div class="column basis50">
-                <h3 class="project_title"><a href="https://tina.collier.blog/">Tina.Collier.Blog</a></h3>
-                <ul>
-                    <li><em>My Personal WordPress Blog</em></li>
-                    <li>This is my personal WordPress blog that I have maintained for 8 years. I have documented my web development journey and my fellowship at Center Centre - UIE in this blog.</li>
-                </ul>
-            </div>
-        
         </div>
     </section>
 
@@ -297,7 +328,7 @@
     <!-- Email -->
     <section class="bg-lightGray">
         <div class="container-cc split py-3">
-            <div class="column basis100">            
+            <div class="column basis100 text-center">            
                 <h2 class="no-padding-right-on-mobile pr-4">Email Projects</h2>
             </div>
 
